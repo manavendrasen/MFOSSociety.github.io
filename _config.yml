@@ -1,10 +1,13 @@
 baseurl: ""
 
+url: "https://mfossociety.github.io/"
+
 sass:
-    sass_dir: css
-    style: compressed
+  sass_dir: css
+  style: compressed
 
 plugins:
-    - jekyll-gzip
+  - jekyll-gzip
+  - jekyll-sitemap
 
 theme: jekyll-theme-cayman
